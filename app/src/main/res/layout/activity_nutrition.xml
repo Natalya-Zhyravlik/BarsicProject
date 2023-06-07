@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    tools:context=".NutritionActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="\tЧастота кормления:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="
+\t•	от 2 до 6 месяцев: 6 раз в день\n
+\t•	с 6 до 8 месяцев: з раза в сутки\n
+\t•	с 8 месяцев: 2-3 раза в сутки\n
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:text="\tНатуральное питание:"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="\t•	постная говядина и курятина\n
+\t•	отруби и овсянка\n
+\t•	гречка и рис\n
+\t•	отварные овощи – кабачок, тыква, морковь и стручки зеленой фасоли\n
+\t•	крутой желток куриного или перепелиного яйца – дается 2 раза в неделю\n
+\t•	сердце, печень, почки – можно давать куриные, говяжьи и индюшачьи, ошпаренные кипятком или отварные\n
+\t•	морская рыба – постная, отварная, без косточек\n
+\t•	детское питание\n
+\t•	нежирный сыр
+"/>
+    <ImageView
+        android:layout_width="375dp"
+        android:layout_height="325dp"
+        android:src="@drawable/eat"
+        android:layout_marginLeft="15dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="\tНормы кормления:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="Нормы кормления натуральным кормом"/>
+        <ImageView
+            android:layout_width="375dp"
+            android:layout_height="180dp"
+            android:src="@drawable/eat1"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="Нормы кормления сухим кормом"/>
+        <ImageView
+            android:layout_width="375dp"
+            android:layout_height="180dp"
+            android:src="@drawable/eat2"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="Нормы кормления влажным кормом"/>
+        <ImageView
+            android:layout_width="375dp"
+            android:layout_height="180dp"
+            android:src="@drawable/eat3"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+</ScrollView>

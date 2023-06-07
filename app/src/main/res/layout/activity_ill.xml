@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IllActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="\tПомощь при шоке"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="\t•	Положить кошку на бок, вытянув ей шею и приподняв голову.\n
+\t•	Приподнять заднюю часть тела с помощью подушек или полотенец.\n
+\t•	Остановить любое очевидное кровотечение с помощью давящей повязки или жгута, если это необходимо.\n
+\t•	При необходимости сделать искусственное дыхание или массаж сердца.\n
+\t•	Предотвратить понижение температуры тела, завернув животное в теплое одеяло.\n
+\t•	Немедленно отвезти кошку в ближайшую ветеринарную клинику. Если кошка в глубоком шоке, держите ее так, чтобы конечности были подняты выше сердца.\n
+\t•	Не давать жидкость и пищу.\n
+\t•	Не разрешать кошке долго ходить, если она в сознании.
+
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="\tНаложение повязки"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="
+\t•	Повязка состоит из подушечки – впитывающей прокладки, марлевого бинта и лейкопластыря.\n
+\t•	После того как рана будет очищена, продезинфицирована и подсушена, наложите на нее подушечку.\n
+\t•	Затем, начав с одного конца подушечки, бинтуйте так, чтобы сама подушечка не сползала с места, на которое была приложена.\n
+\t•	Первый оборот бинта закрепляет подушечку с помощью пластыря.\n
+\t•	Каждый следующий оборот на треть перекрывает предыдущий.\n
+\t•	Продолжайте бинтовать до тех пор, пока не будет забинтована вся подушечка вместе с неповрежденной частью.\n
+\t•	Выведите липкий пластырь за пределы бинта по обе стороны повязки, захватив в этих местах кончики волосков.
+
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="\tПомощь при травмах глаза"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="
+\t•	Если глаз выступает из глазной орбиты, не пытайтесь вправить его обратно. Накройте его чистой влажной тряпкой, пропитанной теплой соленой водой или перенасыщенным сахарным раствором. Прибинтуйте нетуго повязку к голове.\n
+\t•	Если кошка моргает, щурится или прячется от света, проверьте, не попало ли в глаз инородное тело. Для этого приподнимите верхнее и нижнее веко большими пальцами. Остальными пальцами контролируйте движения головы животного.\n
+\t•	Если обнаружилось инородное тело, не проникшее в глазную ткань, удалите его, промыв глаз теплой водой или с помощью смоченного в воде ватного тампона
+"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/eye_washing"
+            android:layout_marginLeft="15dp"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="\tПомощь при ожогах"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="
+\t•	Если кожа не повреждена, но был тепловой ожог I степени, удерживая кошку, охладите пораженный участок как можно быстрее холодной водой с помощью несильной струи из шланга или душа или поместив кошку в ванну или тазик.\n
+\t•	Затем смажьте участок облепиховым или репейным маслом, мазью «Спасатель» и наложите неприлипающую повязку.
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="\tПомощь при отморожениях"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="
+\t•	Поместить животное в теплое помещение\n
+\t•	Завернуть в теплое одеяло, предварительно осторожно помассировав отмороженные части тела\n
+\t•	К животу кошки приложить завернутую в полотенце бутылку с горячей водой температурой не выше 32,2 °С\n
+\t•	Чуть позже можно дать кошке теплое питье.
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="\tПомощь при тепловом и солнечном ударах"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="
+\t•	Удалить кошку от источника избыточного тепла.\n
+\t•	Поставьте ее в ванну или раковину и полейте прохладной, но не ледяной водой из душа или шланга, направляя его преимущественно на заднюю часть шеи и головы и постепенно наполняя ванну, при этом голова кошки должна находиться над водой.\n
+\t•	Положите пакет со льдом или замороженными продуктами на голову животного, чтобы уменьшить доступ тепла.\n
+\t•	Пусть кошка выпьет столько холодной воды, сколько захочет.\n
+\t•	Энергично массируйте лапы, что поможет улучшить кровообращение и снизить риск возникновения шока.
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="\tТранспортировка больной кошки"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="
+\t•	Если пострадавшая кошка получила небольшие повреждения и хочет сама забраться в сумку-переноску, не препятствуйте ей.\n
+\t•	В остальных случаях поднимите своего питомца, поставьте его на лапы, расположив одну руку под его подбородком, а другой поддерживайте грудную клетку и живот. Прижмите кошку к себе спиной и положите в ящик для перевозки.\n
+\t•	Будьте чрезвычайно осторожны, поднимая животное, если есть подозрение на серьезную физическую травму: поддерживайте спину, сломанные лапы должны находиться сверху, поврежденная часть грудной клетки должна находиться снизу\n
+\t•	Пусть кошка сама найдет для себя наиболее удобное положение, в котором ей легче дышится. В таких ситуациях положите травмированного питомца спиной к себе, а затем осторожно перетащите его на доску или на кусок гофрированного картона, подсунув одну руку под грудную клетку кошки, а другую под заднюю часть туловища.
+"/>
+        <ImageView
+            android:layout_width="325dp"
+            android:layout_height="180dp"
+            android:src="@drawable/transportation"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+</ScrollView>

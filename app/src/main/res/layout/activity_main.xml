@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/Care"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Уход"
+        />
+    <Button
+        android:id="@+id/Nutrition"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Питание"
+        />
+    <Button
+        android:id="@+id/Education"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Воспитание"
+        />
+    <Button
+        android:id="@+id/Aggression"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Признаки агрессии"
+        />
+    <Button
+        android:id="@+id/Ill"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Первая помощь"
+        />
+    <Button
+        android:id="@+id/Address"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Адреса ветклиник"
+        />
+</LinearLayout>

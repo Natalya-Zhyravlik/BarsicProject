@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AggressionActivity">
+    <ImageView
+        android:layout_width="375dp"
+        android:layout_height="325dp"
+        android:src="@drawable/cat"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="\tПризнаки проявления агрессии у кошек:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="
+\t•	вздыбленная шерсть\n
+\t•	пристальный взгляд, расширение зрачков\n
+\t•	опускание ушей к голове\n
+\t•	выгибание спины или наоборот прижимание тела к земле\n
+\t•	подёргивание, размахивание хвостом\n
+\t•	замах лапой, намерение поцарапать\n
+\t•	демонстрация зубов, попытки укусить\n
+\t•	 шипение, рычание, вопль\n
+"/>
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Как шипит кошка"
+        android:onClick="play"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:text="\tЧто делать?"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="\t•	Постарайтесь не нависать над животным\n
+\t•	не смотреть кошке прямо в глаза\n
+\t•	не трогать кота\n
+\t•	не брать его на руки\n
+\t•	Не скидывайте кошку из своих рук\n
+\t•	Не бить кошку\n
+"/>
+    </LinearLayout>
+</ScrollView>

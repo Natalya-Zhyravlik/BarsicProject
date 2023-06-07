@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CareActivity">
+    <ImageView
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        android:src="@drawable/care"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="\tЧто нужно для кошки:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="
+\t•	Переноска — жесткая или тканевая\n
+\t•	2 миски для еды и 1 для воды\n
+\t•	Лоток\n
+\t•	Наполнитель для кошачьего туалета\n
+\t•	Когтерезка\n
+\t•	Пуходёрка, если котёнок длинношерстный\n
+\t•	2 расчески — с частыми и редкими зубчиками\n
+\t•	Домик, лежанка или игровой комплекс\n
+\t•	Когтеточка\n
+\t•	Несколько игрушек
+
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:text="\tУход за кошкой:"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="\t•	Вычесывание шерсти: 2-3 раз в неделю(для длинношерстных кошек), 1 раза в неделю(для короткошерстных кошек)\n
+\t•	Купание: не чаще 1-2 в год, не чаще 2 раз в месяц(для бесшерстных кошек)\n
+\t•	Стрижка когтей: не чаще 1 раза в месяц\n
+\t•	Чистка ушей: еженедельно\n
+\t•	Протирание глаз: еженедельно\n
+\t•	Гигиена полости рта: чистить кошке зубы нужно 1-2 раза в месяц
+"/>
+    </LinearLayout>
+</ScrollView>

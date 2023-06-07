@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddressActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="
+\t•	Содружество: Степана Халтурина, 30\n
+\t+7 (917) 381-45-20\n
+\t•	Ветленд: Пушкина, 35/3, 1 этаж\n
+\t+7 (937) 852-33-17\n
+\t•	Винкот: Юрия Гагарина, 41/3, 1 этаж\n
+\t+7 (960) 800-52-58\n
+\t•	Ветленд: Георгия Мушникова, 28\n
+\t+7 (937) 847-64-85\n
+\t•	Ветленд: улица Первомайская, 26, цокольный этаж\n
+\t+7 (937) 844-32-94\n
+\t•	UfaVet: Айская, 37\n
+\t+7 (927) 236-06-52\n
+\t•	Адмирала Макарова, 14/5, 1 этаж\n
+\t+7 (917) 423-78-88 / +7 (917) 753-78-19\n
+\t•	улица Султанова, 8\n
+\t+7 (917) 415-01-06
+"/>
+</LinearLayout>

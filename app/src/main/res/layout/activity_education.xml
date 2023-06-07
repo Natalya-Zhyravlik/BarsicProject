@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EducationActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:text="\t•	найдите то, что мотивирует вашего питомца\n
+\t•	установите с животным теплые доверительные отношения\n
+\t•	при первых контактах с кошкой уделяйте ей много внимания\n
+\t•	прежде чем приступить к воспитанию боязливой и пугливой кошки, необходимо завоевать ее доверие\n
+\t•	награждайте своего питомца за хорошее поведение\n
+\t•	играйте со своим питомцем\n
+\t•	когда ваш питомец плохо ведет себя, говорите с ним особым тоном\n
+\t•	старайтесь избегать ситуаций, в которых кошка может плохо вести себя\n
+\t•	не кричите на кошку и не обращайтесь с ней грубо\n
+\t•	оставляйте кошку в покое, когда она спит или прячется\n
+\t•	никогда не бейте кошку и ничем не бросайте в нее\n
+
+"/>
+    <ImageView
+        android:layout_width="375dp"
+        android:layout_height="325dp"
+        android:src="@drawable/f"
+        android:layout_marginLeft="15dp"
+        />
+</LinearLayout>
+</ScrollView>
